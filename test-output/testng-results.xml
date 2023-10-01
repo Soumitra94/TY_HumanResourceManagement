@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="14" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-27T09:35:45 IST" name="Suite" finished-at="2023-09-27T09:36:19 IST" duration-ms="34294">
+    <groups>
+      <group name="regression">
+        <method signature="Demo1Test.Demo1Test()[pri:0, instance:TestNG.Demo1Test@3b69e7d1]" name="Demo1Test" class="TestNG.Demo1Test"/>
+        <method signature="Simple1Test.Simple1Test()[pri:0, instance:TestNG.Simple1Test@3fc2959f]" name="Simple1Test" class="TestNG.Simple1Test"/>
+        <method signature="Demo1Test.Demo1Test()[pri:0, instance:TestNG.Demo1Test@fa4c865]" name="Demo1Test" class="TestNG.Demo1Test"/>
+        <method signature="Simple1Test.Simple1Test()[pri:0, instance:TestNG.Simple1Test@544fa968]" name="Simple1Test" class="TestNG.Simple1Test"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Demo1Test.Demo1Test()[pri:0, instance:TestNG.Demo1Test@3b69e7d1]" name="Demo1Test" class="TestNG.Demo1Test"/>
+        <method signature="Sample1Test.Sample1Test()[pri:0, instance:TestNG.Sample1Test@10683d9d]" name="Sample1Test" class="TestNG.Sample1Test"/>
+        <method signature="Demo1Test.Demo1Test()[pri:0, instance:TestNG.Demo1Test@fa4c865]" name="Demo1Test" class="TestNG.Demo1Test"/>
+        <method signature="Sample1Test.Sample1Test()[pri:0, instance:TestNG.Sample1Test@3bd82cf5]" name="Sample1Test" class="TestNG.Sample1Test"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-09-27T09:35:45 IST" name="TestRunner-2" finished-at="2023-09-27T09:36:18 IST" duration-ms="33432">
+      <class name="TestNG.Simple1Test">
+        <test-method is-config="true" signature="confBC()[pri:0, instance:TestNG.Simple1Test@544fa968]" started-at="2023-09-27T09:36:08 IST" name="confBC" finished-at="2023-09-27T09:36:10 IST" duration-ms="2530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confBC -->
+        <test-method is-config="true" signature="confBM()[pri:0, instance:TestNG.Simple1Test@544fa968]" started-at="2023-09-27T09:36:10 IST" name="confBM" finished-at="2023-09-27T09:36:18 IST" duration-ms="7263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confBM -->
+        <test-method signature="Simple1Test()[pri:0, instance:TestNG.Simple1Test@544fa968]" started-at="2023-09-27T09:36:18 IST" name="Simple1Test" finished-at="2023-09-27T09:36:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Simple1Test -->
+        <test-method is-config="true" signature="confAM()[pri:0, instance:TestNG.Simple1Test@544fa968]" started-at="2023-09-27T09:36:18 IST" name="confAM" finished-at="2023-09-27T09:36:18 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confAM -->
+        <test-method is-config="true" signature="confAC()[pri:0, instance:TestNG.Simple1Test@544fa968]" started-at="2023-09-27T09:36:18 IST" name="confAC" finished-at="2023-09-27T09:36:18 IST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confAC -->
+      </class> <!-- TestNG.Simple1Test -->
+      <class name="TestNG.Demo1Test">
+        <test-method is-config="true" signature="confBS()[pri:0, instance:TestNG.Demo1Test@fa4c865]" started-at="2023-09-27T09:35:44 IST" name="confBS" finished-at="2023-09-27T09:35:45 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confBS -->
+        <test-method is-config="true" signature="confBC()[pri:0, instance:TestNG.Demo1Test@fa4c865]" started-at="2023-09-27T09:35:45 IST" name="confBC" finished-at="2023-09-27T09:35:50 IST" duration-ms="5661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confBC -->
+        <test-method is-config="true" signature="confBM()[pri:0, instance:TestNG.Demo1Test@fa4c865]" started-at="2023-09-27T09:35:50 IST" name="confBM" finished-at="2023-09-27T09:35:57 IST" duration-ms="6481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confBM -->
+        <test-method signature="Demo1Test()[pri:0, instance:TestNG.Demo1Test@fa4c865]" started-at="2023-09-27T09:35:57 IST" name="Demo1Test" finished-at="2023-09-27T09:35:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1Test -->
+        <test-method is-config="true" signature="confAM()[pri:0, instance:TestNG.Demo1Test@fa4c865]" started-at="2023-09-27T09:35:57 IST" name="confAM" finished-at="2023-09-27T09:35:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confAM -->
+        <test-method is-config="true" signature="confAC()[pri:0, instance:TestNG.Demo1Test@fa4c865]" started-at="2023-09-27T09:35:57 IST" name="confAC" finished-at="2023-09-27T09:35:58 IST" duration-ms="1435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confAC -->
+        <test-method is-config="true" signature="confAS()[pri:0, instance:TestNG.Demo1Test@fa4c865]" started-at="2023-09-27T09:36:19 IST" name="confAS" finished-at="2023-09-27T09:36:19 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confAS -->
+      </class> <!-- TestNG.Demo1Test -->
+      <class name="TestNG.Sample1Test">
+        <test-method is-config="true" signature="confBC()[pri:0, instance:TestNG.Sample1Test@3bd82cf5]" started-at="2023-09-27T09:35:58 IST" name="confBC" finished-at="2023-09-27T09:36:01 IST" duration-ms="3002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confBC -->
+        <test-method is-config="true" signature="confBM()[pri:0, instance:TestNG.Sample1Test@3bd82cf5]" started-at="2023-09-27T09:36:01 IST" name="confBM" finished-at="2023-09-27T09:36:07 IST" duration-ms="6059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confBM -->
+        <test-method signature="Sample1Test()[pri:0, instance:TestNG.Sample1Test@3bd82cf5]" started-at="2023-09-27T09:36:07 IST" name="Sample1Test" finished-at="2023-09-27T09:36:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sample1Test -->
+        <test-method is-config="true" signature="confAM()[pri:0, instance:TestNG.Sample1Test@3bd82cf5]" started-at="2023-09-27T09:36:07 IST" name="confAM" finished-at="2023-09-27T09:36:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confAM -->
+        <test-method is-config="true" signature="confAC()[pri:0, instance:TestNG.Sample1Test@3bd82cf5]" started-at="2023-09-27T09:36:07 IST" name="confAC" finished-at="2023-09-27T09:36:08 IST" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confAC -->
+      </class> <!-- TestNG.Sample1Test -->
+    </test> <!-- TestRunner-2 -->
+    <test started-at="2023-09-27T09:35:45 IST" name="TestRunner-1" finished-at="2023-09-27T09:36:19 IST" duration-ms="34294">
+      <class name="TestNG.Simple1Test">
+        <test-method is-config="true" signature="confBC()[pri:0, instance:TestNG.Simple1Test@3fc2959f]" started-at="2023-09-27T09:36:08 IST" name="confBC" finished-at="2023-09-27T09:36:11 IST" duration-ms="2733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confBC -->
+        <test-method is-config="true" signature="confBM()[pri:0, instance:TestNG.Simple1Test@3fc2959f]" started-at="2023-09-27T09:36:11 IST" name="confBM" finished-at="2023-09-27T09:36:19 IST" duration-ms="7955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confBM -->
+        <test-method signature="Simple1Test()[pri:0, instance:TestNG.Simple1Test@3fc2959f]" started-at="2023-09-27T09:36:19 IST" name="Simple1Test" finished-at="2023-09-27T09:36:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Simple1Test -->
+        <test-method is-config="true" signature="confAM()[pri:0, instance:TestNG.Simple1Test@3fc2959f]" started-at="2023-09-27T09:36:19 IST" name="confAM" finished-at="2023-09-27T09:36:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confAM -->
+        <test-method is-config="true" signature="confAC()[pri:0, instance:TestNG.Simple1Test@3fc2959f]" started-at="2023-09-27T09:36:19 IST" name="confAC" finished-at="2023-09-27T09:36:19 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confAC -->
+      </class> <!-- TestNG.Simple1Test -->
+      <class name="TestNG.Demo1Test">
+        <test-method is-config="true" signature="confBC()[pri:0, instance:TestNG.Demo1Test@3b69e7d1]" started-at="2023-09-27T09:35:45 IST" name="confBC" finished-at="2023-09-27T09:35:50 IST" duration-ms="5677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confBC -->
+        <test-method is-config="true" signature="confBM()[pri:0, instance:TestNG.Demo1Test@3b69e7d1]" started-at="2023-09-27T09:35:50 IST" name="confBM" finished-at="2023-09-27T09:35:57 IST" duration-ms="6202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confBM -->
+        <test-method signature="Demo1Test()[pri:0, instance:TestNG.Demo1Test@3b69e7d1]" started-at="2023-09-27T09:35:57 IST" name="Demo1Test" finished-at="2023-09-27T09:35:57 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1Test -->
+        <test-method is-config="true" signature="confAM()[pri:0, instance:TestNG.Demo1Test@3b69e7d1]" started-at="2023-09-27T09:35:57 IST" name="confAM" finished-at="2023-09-27T09:35:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confAM -->
+        <test-method is-config="true" signature="confAC()[pri:0, instance:TestNG.Demo1Test@3b69e7d1]" started-at="2023-09-27T09:35:57 IST" name="confAC" finished-at="2023-09-27T09:35:57 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confAC -->
+      </class> <!-- TestNG.Demo1Test -->
+      <class name="TestNG.Sample1Test">
+        <test-method is-config="true" signature="confBC()[pri:0, instance:TestNG.Sample1Test@10683d9d]" started-at="2023-09-27T09:35:57 IST" name="confBC" finished-at="2023-09-27T09:36:00 IST" duration-ms="3284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confBC -->
+        <test-method is-config="true" signature="confBM()[pri:0, instance:TestNG.Sample1Test@10683d9d]" started-at="2023-09-27T09:36:00 IST" name="confBM" finished-at="2023-09-27T09:36:07 IST" duration-ms="7174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confBM -->
+        <test-method signature="Sample1Test()[pri:0, instance:TestNG.Sample1Test@10683d9d]" started-at="2023-09-27T09:36:07 IST" name="Sample1Test" finished-at="2023-09-27T09:36:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sample1Test -->
+        <test-method is-config="true" signature="confAM()[pri:0, instance:TestNG.Sample1Test@10683d9d]" started-at="2023-09-27T09:36:07 IST" name="confAM" finished-at="2023-09-27T09:36:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confAM -->
+        <test-method is-config="true" signature="confAC()[pri:0, instance:TestNG.Sample1Test@10683d9d]" started-at="2023-09-27T09:36:07 IST" name="confAC" finished-at="2023-09-27T09:36:08 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confAC -->
+      </class> <!-- TestNG.Sample1Test -->
+    </test> <!-- TestRunner-1 -->
+  </suite> <!-- Suite -->
+</testng-results>
